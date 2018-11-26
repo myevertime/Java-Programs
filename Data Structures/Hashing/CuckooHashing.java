@@ -6,7 +6,7 @@ public class Cuckoo<K, V>
 
     private HashFunction<K> hash1;
     private HashFunction<K> hash2;
-    private AllocRule alloc;
+    private AllocationRule alloc;
 
     private double threshold;
 
@@ -16,7 +16,7 @@ public class Cuckoo<K, V>
     public Cuckoo(
         HashFunction<K> h1,
         HashFunction<K> h2,
-        AllocRule alloc,
+        AllocationRule alloc,
         double threshold,
         int initial_length
     )
