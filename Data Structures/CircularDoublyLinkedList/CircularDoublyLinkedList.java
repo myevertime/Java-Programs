@@ -1,4 +1,4 @@
-public class CircularDoubly
+public class CircularDoublyLinkedList
 {
 	
 	private Node tail;
